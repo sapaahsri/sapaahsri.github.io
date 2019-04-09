@@ -1,0 +1,241 @@
+/*start body*/
+body{
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height 1.5em;
+    margin: 10;
+    padding: 10;
+}
+/*end body*/
+
+/*start debug*/
+.bg-plum {
+    background-color: plum;
+}
+
+.ft-arial {
+    font-family: helvetica;
+}
+/*end debug*/
+
+/* start container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* end container*/
+
+/* start container full*/
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width:100 %;
+}
+/* end container full*/
+
+/*start logo*/
+.logo {
+    text-align: left;
+}
+/*end logo*/ 
+
+/*start anchor/hyperlink*/
+a:link,
+a:visited {
+    color: blue;
+    text-decoration: none;
+
+}
+a:hover,
+a:active {
+
+}
+/*end anchor/hyperlink*/
+
+/* start menu primer*/
+.menu-primer ul {
+    background-color:plum;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li {
+    display: inline-block;
+    border-right: 1px solid #d1d5da;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: #ffff;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color:#f7f7f7;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/*end menu primer*/
+
+/*start main*/
+.main-home-one{
+    float: left;
+    width: 49.5%
+}
+
+.main-home-two{
+    float: right;
+    width: 49.5%
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+/*end main*/
+
+
+/* start box*/
+.box-heading {
+    background-color:plum;
+    border: 1px solid purple;
+    border-radius: 3px 3px 0 0;
+    margin: 0px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color:violet;
+    border: 1px solid purple;
+    border-top: 0;
+    margin: 0px;
+    padding: 10px 20px;
+   
+}
+/* end box*/
+
+/*start komentar*/
+.komentar {
+    border-left: 4px solid grey;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/*end komentar*/
+
+/* start table produk*/
+.produk-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: left;
+    width: 70%
+}
+.produk-table th{
+    background-color: plum;
+}
+.produk-table td {
+    text-align:center;
+}
+/* end table produk*/
+
+/*start from*/
+input [type="text"],
+input [type="email"],
+textarea{
+    font-size: 14px;
+    padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color:#888888;
+    font-weight: 300;
+}
+
+input[type="submit"]{
+    background-color: #eff3f6;
+    background-image: linear-gradient (-180deg,#fafbfc 0%, #eff3f6 90%);
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 4px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/*end from*/
+
+/* start contact form*/
+.contact-form div {
+    margin: 20px 0;
+}
+/* end contact form*/
+
+/*start menu sekunder*/
+.menu-sekunder{
+    background-color: plum;
+    border-bottom: 1px solid plum;
+    border-top: 1px solid plum;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4{
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase; 
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li{
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+
+.menu-sekunder-one {
+    width: 40%
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 25%
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/*end menu sekunder*/
+
+/*start copyright*/
+.copyright p {
+    font-size: 15px;
+}
+/*end copyright*/
